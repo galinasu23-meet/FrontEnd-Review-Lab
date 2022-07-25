@@ -11,6 +11,7 @@
 	<style>
 		body {background-color: rgba(255, 99, 71, 0.5)}
 		#title {color: purple;}
+		#img {width: 400px;}
 		.text {color:  DodgerBlue}
 
 		
@@ -24,13 +25,16 @@
 	<h2> ged to know more! </h2>
 	<p class="text"> in this site you can discover alot of artist, genres, alboms and moreeee </p>
 	<a class= "text" href="https://en.wikipedia.org/wiki/Music"> ayoo read about music </a>
-	<img src="albums.jpg" alt="My test image">
+	<img id = "img" src="albums.jpg" alt="My test image">
 
 	<script src="main.js"> </script>
 
 	<form>  
-        <input type = "button" onclick = "changeBackgroundColor()" value = "color change">   
-	</form>     
+        <input type = "button" onclick = 'changeBackgroundColor("blue")' value = "color change">   
+        <input type = "button" onclick = 'changeBackgroundColor("lime")' value = "color change 2">  
+        <input type = "button" onclick = 'changeBackgroundColor("rgba(255, 99, 71, 0.5)")' value = "color change back"> 
+
+	</form>    
 
 
 </body>

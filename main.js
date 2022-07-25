@@ -1,7 +1,12 @@
 
 
 
-function changeBackgroundColor() {
-	var color = document.getElementsByTagName("body");
-color.style.backgroundColor= "blue";
+function changeBackgroundColor(color) {
+	document.body.style.backgroundColor= color;
 }
+
+
+
+
+
+
