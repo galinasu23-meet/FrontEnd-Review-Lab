@@ -2,7 +2,12 @@
 
 
 function changeBackgroundColor(color) {
-	document.body.style.backgroundColor= color;
+	if (document.body.style.backgroundColor== "blue"){
+		document.body.style.backgroundColor= "pink";
+	} else{
+		document.body.style.backgroundColor= "blue";
+	}
+
 }
 
 
